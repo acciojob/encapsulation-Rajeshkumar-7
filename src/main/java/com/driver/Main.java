@@ -6,11 +6,11 @@ public class Main {
 
         RWOnly x = new RWOnly();
 
-        x.name = "Rajesh";
-        System.out.println(x.name);
+        // x.name = "Rajesh";
+        // name has private access in 'com.driver.RWOnly'
 
-        x.setName("Michael");
-        System.out.println(x.getName());
+        x.setName("Rajesh");
+        x.getName();
 
     }
 }
